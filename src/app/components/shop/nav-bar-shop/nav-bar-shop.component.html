@@ -1,0 +1,22 @@
+<div class="sample-column">
+  <igx-navbar actionButtonIcon="menu" [isActionButtonVisible]="true">
+    <div igxNavbarTitle>
+      HIGH SUCCESS
+    </div>
+
+    <igx-input-group type="search" class="offset rounded-search">
+      <igx-suffix>
+        <igx-icon>search</igx-icon>
+      </igx-suffix>
+
+      <input #search1 id="search1" class="rounded-search" igxInput placeholder="Buscar"  />
+
+      <igx-suffix *ngIf="true">
+        ...
+      </igx-suffix>
+    </igx-input-group>
+    <igx-icon>search</igx-icon>
+    <igx-icon>favorite</igx-icon>
+    <igx-icon>more_vert</igx-icon>
+  </igx-navbar>
+</div>
