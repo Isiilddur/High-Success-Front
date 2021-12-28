@@ -4,7 +4,7 @@ import {NavBarShopComponent} from "../nav-bar-shop/nav-bar-shop.component";
 @Component({
   selector: 'app-main-shop',
   templateUrl: './main-shop.component.html',
-  styleUrls: ['./main-shop.component.scss']
+  styleUrls: ['./main-shop.component.css']
 })
 export class MainShopComponent implements OnInit {
 

@@ -9,18 +9,19 @@ import { NavBarShopComponent } from "./components/shop/nav-bar-shop/nav-bar-shop
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MainComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ShopModule,
-    BrowserAnimationsModule
-  ],
-  providers: [ShopModule, NavBarShopComponent],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        MainComponent,
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ShopModule,
+        BrowserAnimationsModule
+    ],
+    providers: [ShopModule, NavBarShopComponent],
+
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }
